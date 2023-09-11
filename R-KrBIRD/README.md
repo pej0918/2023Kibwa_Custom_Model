@@ -1,6 +1,7 @@
 #### R-KrBIRD
   해당 모델은 R-BERT 모델로부터 영감을 얻어 KoBIGBIRD 모델의 Architecture를 수정한 모델이다.
-  ![image](https://github.com/pej0918/Custom_Model/assets/79118751/49394e8a-bba2-438d-bce9-5871869441f3)
+  ![image](https://github.com/pej0918/Custom_Model/assets/79118751/75cbf66b-dc5c-4579-83f9-5aa9bd4d7a3e)
+
 
   
 - R-BERT 모델로부터 아이디어를 얻어 KoBIGBIRD 모델의 아키텍쳐를 수정
