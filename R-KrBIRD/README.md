@@ -1,4 +1,4 @@
-#### R-KrBIRD
+### R-KrBIRD
   해당 모델은 R-BERT 모델로부터 영감을 얻어 KoBIGBIRD 모델의 Architecture를 수정한 모델이다.
   ![image](https://github.com/pej0918/Custom_Model/assets/79118751/75cbf66b-dc5c-4579-83f9-5aa9bd4d7a3e)
 
@@ -11,7 +11,7 @@
 - KrBERT의 언어 이해 능력과 KoBIGBIRD의 장문 처리 능력을 결합함으로써 입력 텍스트의 다양한 특징을 포함시키고, 긴 대화 데이터를 다루는 데 있어 KoBIGBIRD의 장점을, 문장 내의 미묘한 의미나 표현을 이해하는 데 Kr-BERT의 장점을 활용할 것으로 기대됨.
 
 
-##### Process
+#### Process
       1. KrBERT와 kobigbird 모델을 사용하여 입력 토큰의 임베딩을 얻음.
       2. out과 out_bird에서 각각 첫 번째 토큰인 [CLS]의 임베딩을 가져옴 (cls_krbert 와 cls_kobigbird)
       3. 두 문장을 구분해주는, 즉 문장의 끝을 나타내는 인덱스(KoBIGBIRD는 3, KrBERT는 2)를 사용하여 comment_vector와 pos_key_vector를 추출 ->평균을 계산하여 벡터의 차원을 줄임.
