@@ -24,3 +24,6 @@
 ![image](https://github.com/Voice-Phishing-Prevention-Project/NLP_CustomModel/assets/79118751/ec04554c-5ddc-42a8-a99c-096a7bcef2f9)
 
 ![image](https://github.com/Voice-Phishing-Prevention-Project/NLP_CustomModel/assets/79118751/8416654d-96b0-44ba-9625-2935a7528bb0)
+
+![image](https://github.com/pej0918/2022_Hanium_Project/assets/79118751/461cd96a-0420-49ba-80e7-3ca785bf631a)
+
