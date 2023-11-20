@@ -19,6 +19,8 @@
 * Kr-BERT와 KoBIGBIRD의 CLS 토큰을 합침으로써 두 모델의  다양한 특징을 융합하여 각 모델의 장점을 활용하고 서로의 부족한 부분을 보완
 
 
+### 🦾 About Algorithms 🦾
+
 ![image](https://github.com/Voice-Phishing-Prevention-Project/NLP_CustomModel/assets/79118751/ec04554c-5ddc-42a8-a99c-096a7bcef2f9)
 
 ![image](https://github.com/Voice-Phishing-Prevention-Project/NLP_CustomModel/assets/79118751/8416654d-96b0-44ba-9625-2935a7528bb0)
