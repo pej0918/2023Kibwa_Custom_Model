@@ -1,5 +1,5 @@
 ## NLP 알고리즘을 활용한 A.I 보이스 피싱 탐지 모델
-- 본 프로젝트에서는 KoBIGBIRD 모델과 R-BERT, 그리고 KRBERT 모델을 Concat 및 Customize하여 최종 모델로 채택함.
+- 본 프로젝트에서는 KoBIGBIRD 모델과 R-BERT, 그리고 KRBERT 모델을 Concat 및 Customize하여 최종 모델로 채택함.<br>
 프로젝트 설명 : https://github.com/pej0918/AI_Voice_Phishing_Detection_Solution_Utilizing_NLP_Algorithms
 
 
