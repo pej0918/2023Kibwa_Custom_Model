@@ -3,7 +3,8 @@
 
 
 ### 📜 About Model 📜
-* CLS 토큰 뿐만 아니라 전체 대화 데이터와 형태소 및 키워드만을 추출한 데이터, 각각의 임베딩 벡터를 학습에 사용해보자는 관점에서 Custom이 된 모델
+* Relation Extraction Task에서 R-BERT 모델은 CLS 토큰 뿐만 아니라 entity1과 entity2 임베딩 벡터를 같이 활용함으로써 그 성능을 높이고자 하였다.
+* 이에 해당 모델은 CLS 토큰 뿐만 아니라 전체 대화 데이터와 형태소 및 키워드만을 추출한 데이터, 각각의 임베딩 벡터를 학습에 사용해보자는 관점에서 Custom이 된 모델이라고 할 수 있다.
   
 ### ⚙️ How Customized? ⚙️
 * 해당 모델은 R-BERT 모델로부터 영감을 얻어 KoBIGBIRD 모델의 Architecture를 수정한 모델
