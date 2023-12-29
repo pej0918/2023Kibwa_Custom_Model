@@ -15,6 +15,6 @@
       1. KrBERT와 kobigbird 모델을 사용하여 입력 토큰의 임베딩을 얻음.
       2. out과 out_bird에서 각각 첫 번째 토큰인 [CLS]의 임베딩을 가져옴 (cls_krbert 와 cls_kobigbird)
       3. 두 문장을 구분해주는, 즉 문장의 끝을 나타내는 인덱스(KoBIGBIRD는 3, KrBERT는 2)를 사용하여 comment_vector와 pos_key_vector를 추출 ->평균을 계산하여 벡터의 차원을 줄임.
-      4. FCLayer를 사용하여 각 벡터를 적절하게 변환하여 각각의 결과를 cls_embedding, comment_embedding, pos_embedding으로 저장
+      4. FCLayer를 사용하여 각 벡터를 적절하게 변환하여 각각의 결과를 cls_embedding, comment_embedding, pos_key_embedding으로 저장
       5. 4번의 과정을 통해 변환한 임베딩들을 연결(concat_embedding)하여 모델의 입력으로 사용
       6. label_classifier를 통해 최종 분류 결과를 얻음.
